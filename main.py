@@ -2,12 +2,10 @@ import numpy as np
 
 
 def two_multiply(a:int, b:int) -> int:
-    answer = a - b
-    return answer
+    pass
 
 def two_sum(a:int, b:int) -> float:
-    answer = a * b
-    return answer
+    pass
 
 def main():
     a, b = map(int,input().split(' '))
