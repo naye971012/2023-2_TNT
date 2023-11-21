@@ -1,13 +1,6 @@
 import numpy as np
-
-
-def two_multiply(a:int, b:int) -> int:
-    answer = None
-    return answer
-
-def two_sum(a:int, b:int) -> float:
-    answer = a + b
-    return answer
+from _mul import two_multiply
+from _sum import two_sum
 
 def main():
     a, b = map(int,input().split(' '))
