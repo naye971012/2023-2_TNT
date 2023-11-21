@@ -2,7 +2,7 @@ import numpy as np
 
 
 def two_multiply(a:int, b:int) -> int:
-    answer = a - b
+    answer = None
     return answer
 
 def two_sum(a:int, b:int) -> float:
